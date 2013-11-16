@@ -118,10 +118,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf
 
-# IR
-PRODUCT_PACKAGES += \
-    CIRModule
-
 # Keystore
 PRODUCT_PACKAGES += \
     keystore.msm8960
@@ -163,7 +159,7 @@ PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb
+    persist.sys.usb.config=mtp
 
 # Common build properties
 PRODUCT_PROPERTY_OVERRIDES += \

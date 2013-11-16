@@ -80,7 +80,7 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">3</integer>
+  
 
     <!-- Default color for notification LED is green. -->
     <color name="config_defaultNotificationColor">#ff00ff00</color>
@@ -242,10 +242,10 @@
     <bool name="config_hotswapCapable">true</bool>
 
     <!-- Button illumination -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+ 
 
     <!-- Enable flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
